@@ -1,0 +1,73 @@
+                                        body {
+                                            margin: 0;
+                                            padding: 0;
+                                            background-color: FFFFFF;
+                                        }
+                                        
+                                        header {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            font-family: "Oswald", sans-serif;
+                                            background-color: #f6f6f6;
+                                        }
+                                        
+                                        h1 {
+                                            color: #85a2a6;
+                                        }
+                                        
+                                        a {
+                                            text-decoration: none;
+                                            color: #85a2a6;
+                                        }
+                                        
+                                        li {
+                                            list-style: none;
+                                        }
+                                        
+                                        main {
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        hr {
+                                            border-width: 0.5px;
+                                            background-color: #a9a9a9;
+                                            margin: 0;
+                                        }
+                                        
+                                        main p {
+                                            color: #808080;
+                                            font-family: "Source Sans Pro", sans-serif;
+                                        }
+                                        
+                                        main h2 {
+                                            text-decoration: underline #85a2a6;
+                                        }
+                                        
+                                        @media screen and (min-width: 768px) {
+                                            li {
+                                                display: inline-block;
+                                                margin: 20px;
+                                            }
+                                            .feature1 {
+                                                position: absolute;
+                                                right: 0px;
+                                                width: 400px;
+                                                display: inline-block;
+                                            }
+                                            .feature2 {
+                                                width: 400px;
+                                                display: inline-block;
+                                            }
+                                            .fature3 {
+                                                width: 400px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                margin: 0 auto;
+                                                margin-top: 100px;
+                                            }
+                                            main h2 {
+                                                text-decoration: underline #85a2a6;
+                                            }
+                                        }
